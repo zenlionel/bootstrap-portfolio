@@ -1,0 +1,94 @@
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+    .row.content {
+        height: 450px
+        display table;
+    }
+    /* Set gray background color and 100% height */
+
+    .sidenav {
+        padding-top: 20px;
+        background-color: #f1f1f1;
+        height: 100%;
+    }
+
+    h1 {
+        background-color: #f5f5f5;
+        border-bottom-style: solid;
+        border-top: 1px solid;
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-style: outset;
+    }
+    /* Set black background color, white text and some padding */
+
+    footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+
+    @media screen and (max-width: 767px) {
+        .sidenav {
+            height: auto;
+        }
+    }
+
+    .test1 {
+        margin-bottom: 2%;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .floater {
+        float: left;
+    }
+
+    .selfie {
+        padding: 5px;
+        margin: 5px;
+        height: 300px;
+        width: 50%;
+    }
+
+    .justice {
+        text-align: justify;
+    }
+
+    @media screen and (max-width: 680px) {
+        .imgcontent {
+            width: 30%;
+        }
+        .justice {
+            clear: both;
+        }
+    }
+
+    .portfo {
+
+        margin-bottom: 2%;
+    }
+
+    .imgcontent {
+        width: 80%;
+        height: 60%;
+    }
+    @media screen and (max-width: 991px) {
+        .test1{
+            width: 100%;
+        }
+    
+    }
+    .backg {
+        background-color: #555;
+        margin: 1%;
+        padding-bottom: 15px;
+    }
+    b {
+        color: white;
+    }
